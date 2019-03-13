@@ -1,0 +1,48 @@
+
+html, body, :global(#root) {
+  height: 100%;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #e6e6e6;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+
+/* ChargeProfit */
+:global(.red-label-row .ant-form-item-label) { color: red }
+:global(.green-label-row .ant-form-item-label) { color: green }
+
+/* 重置ant 的样式 */
+:global(.ant-form-item-label) {
+  text-align: left !important;
+}
+
+:global(.ocean-export-search-form .ant-form-item) {
+  margin-bottom: 0;
+}
+
+/* ocean list table */
+:global(.ocean-list-warp .ant-table) { font-size: 13px }
+
+:global(.red-row td) {color: #f00;}
+:global(.purple-row td) {color: purple;}
+:global(.blue-row td) {color: #00f;}
+:global(.lightBlue-row td) {color: #3aacff;}
+
+
+:global(.react-resizable) {
+  position: relative;
+}
+:global(.react-resizable-handle) {
+  position: absolute;
+  width: 10px;
+  height: 100%;
+  bottom: 0;
+  right: -5px;
+  cursor: col-resize;
+}
