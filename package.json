@@ -1,0 +1,31 @@
+{
+  "name": "hongan-web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src",
+  "scripts": {
+    "start": "umi dev",
+    "build": "umi build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "keywords": [],
+  "author": "drcus",
+  "license": "ISC",
+  "dependencies": {
+    "ant-design-pro": "^2.3.2",
+    "antd": "^3.20.1",
+    "axios": "^0.18.0",
+    "dva": "^2.4.1",
+    "form-urlencoded": "^3.0.0",
+    "moment": "^2.24.0",
+    "query-string": "^6.8.1",
+    "react": "^16.8.6",
+    "umi": "^2.6.1",
+    "umi-plugin-dva": "^0.9.1",
+    "umi-plugin-react": "^1.6.0",
+    "umi-request": "^1.0.8"
+  }
+}
