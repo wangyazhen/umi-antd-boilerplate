@@ -16,7 +16,7 @@
   "author": "drcus",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "form-urlencoded": "^3.0.0",
     "umi": "^2.6.1",
     "umi-plugin-dva": "^0.9.1",
